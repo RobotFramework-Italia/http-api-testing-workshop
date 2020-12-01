@@ -18,3 +18,28 @@ We will use the new 0.8 pre-release version and we will talk about the developme
 
 ## How to setup a basic API testing/rpa project using the RequestsLibrary
 
+#### Checkout a new project from git
+
+From cli:
+
+    git@github.com:RobotFramework-Italia/http-api-testing-workshop.git
+
+Or gui:
+
+![](./readme-imgs/Selection_201.jpg)
+
+![](./readme-imgs/Menu_200.jpg)
+
+![](./readme-imgs/Clone%20Repository_202.jpg)
+
+#### Setup a new Python virtual environment
+
+![](./readme-imgs/Selection_203.jpg)
+
+#### Install the needed dependencies
+
+    pip install -r requirements.txt 
+
+#### Run a self check test
+
+    robot selfcheck/selfcheck.robot
