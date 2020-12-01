@@ -11,5 +11,10 @@ You will learn:
 - how to use pabot and RequestsLibrary to execute many requests in parallel
 We will use the new 0.8 pre-release version and we will talk about the development roadmap.
 
+## What you need
+- git
+- PyCharm IDE
+- Python
+
 ## How to setup a basic API testing/rpa project using the RequestsLibrary
 
