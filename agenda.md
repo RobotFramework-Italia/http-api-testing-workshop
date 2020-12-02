@@ -29,6 +29,11 @@
 ### How to handle shared session and authentication
 - httpbin Basic Auth
 - branch 1-shared-session
+- more complex example:
+  - oauth2 authentication
+  - differnt roles / scope
+  - setup user generator
+- global session atest setup
 
 ### How to validate the response
 ### What to address with api testing in your test suite
