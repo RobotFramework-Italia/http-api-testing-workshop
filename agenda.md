@@ -41,8 +41,15 @@
   - https://2.python-requests.org/en/master/api/?highlight=response#requests.Response
 - json response
   - challenge assert https://jsonplaceholder.typicode.com/posts/1 contains optio
-
+- implicit status assert
 
 ### What to address with api testing in your test suite
+
 ### How to use RF for basic stress tests
-### How to use pabot and RequestsLibrary to execute many requests in parallel We will use the new 0.8 pre-release version and we will talk about the development roadmap.
+
+### How to use pabot and RequestsLibrary to execute many requests in parallel
+
+### We will use the new 0.8 pre-release version and we will talk about the development roadmap
+- new keyword structure
+- project and next milestones
+- how to contribute
