@@ -23,7 +23,11 @@ We will use the new 0.8 pre-release version and we will talk about the developme
 
 From cli:
 
-    git@github.com:RobotFramework-Italia/http-api-testing-workshop.git
+    git clone git@github.com:RobotFramework-Italia/http-api-testing-workshop.git
+    
+or
+
+    git clone https://github.com/RobotFramework-Italia/http-api-testing-workshop.git
 
 Or gui:
 
