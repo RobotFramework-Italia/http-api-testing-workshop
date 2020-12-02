@@ -25,10 +25,13 @@
   - testcase
   - resp.text
   - logs
+- more on example
+  - parameters
+  - json body
 
 ### How to handle shared session and authentication
 - httpbin Basic Auth
-- branch 1-shared-session
+- branch 1-session
   - advantages of common headers for sessions
 - more complex example:
   - oauth2 authentication
@@ -68,3 +71,4 @@
 - new keyword structure
 - project and next milestones
 - how to contribute
+- challenge cookie test
