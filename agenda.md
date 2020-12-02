@@ -44,10 +44,21 @@
 - implicit status assert
 
 ### What to address with api testing in your test suite
+ - testing pyramid
 
 ### How to use RF for basic stress tests
+- RF for loops
+- sh for loops
+- data generation
+- data driver
 
 ### How to use pabot and RequestsLibrary to execute many requests in parallel
+- realworld examples: 
+  - user delete
+  - data sync
+- data driver + pabot
+  - test level split
+  - different configurations
 
 ### We will use the new 0.8 pre-release version and we will talk about the development roadmap
 - new keyword structure
