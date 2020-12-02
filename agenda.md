@@ -16,7 +16,20 @@
   - full documentation
 
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
+- see README.md
+- selfcheck
+  - httpbin
+- example
+  - configuration file
+  - external and reusable resources
+  - testcase
+  - resp.text
+  - logs
+
 ### How to handle shared session and authentication
+- httpbin Basic Auth
+- branch 1-shared-session
+
 ### How to validate the response
 ### What to address with api testing in your test suite
 ### How to use RF for basic stress tests
