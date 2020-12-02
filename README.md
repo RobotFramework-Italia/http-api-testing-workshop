@@ -40,13 +40,13 @@ Or gui:
 #### Install the needed dependencies
 
     pip install -r requirements.txt 
-
-#### Run a self check test
-
-    robot selfcheck/selfcheck.robot
     
 #### Run a local HTTP sever with Docker
 
     docker run -p 5000:80 kennethreitz/httpbin
     
 Wait until everything is up and running and then open the browser at this url: http://localhost:5000/
+
+#### Run a self check test
+
+    robot selfcheck/selfcheck.robot
