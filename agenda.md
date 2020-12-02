@@ -36,6 +36,13 @@
 - global session atest setup
 
 ### How to validate the response
+- response object
+  - python way challenge
+  - https://2.python-requests.org/en/master/api/?highlight=response#requests.Response
+- json response
+  - challenge assert https://jsonplaceholder.typicode.com/posts/1 contains optio
+
+
 ### What to address with api testing in your test suite
 ### How to use RF for basic stress tests
 ### How to use pabot and RequestsLibrary to execute many requests in parallel We will use the new 0.8 pre-release version and we will talk about the development roadmap.
