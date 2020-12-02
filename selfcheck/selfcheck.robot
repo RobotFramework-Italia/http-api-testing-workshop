@@ -9,5 +9,10 @@ Requests Library is installed
 
 Requests Library works
     Import Library  RequestsLibrary
-    Create Session  session  https://httpbin.org/  verify=True
-    GET On Session  session  anything
+    Create Session  httpbin  https://httpbin.org/  verify=True
+    GET On Session  httpbin  anything
+
+Local HTTP server is reachable
+    Import Library  RequestsLibrary
+    Create Session  local_httpbin  http://localhost:5000
+    GET On Session  local_httpbin  anything
