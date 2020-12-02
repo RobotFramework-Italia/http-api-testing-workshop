@@ -11,31 +11,11 @@ ${USER_SESSION}        user_session
 
 
 *** Test Cases ***
-Test Wrong Credentials
-    Run Keyword And Ignore Error  Create User Local Session  luca  wrong
 
-Test Right Credentials
-    Create User Local Session  luca  right
-
-Test Mixed Sessions
-    Create User Local Session  luca  right
-    POST On Session  ${USER_SESSION}  anything  data=authenticated
-
-    Create Anonymous Local Session
-    GET On Session  ${ANONYMOUS_SESSION}  /anything
-
-Test Reusing A Session
-    [Setup]  Create User Local Session  luca  right
-    GET On Session  ${USER_SESSION}  anything
 
 
 *** Keywords ***
 Create Anonymous Local Session
     Create Session  ${ANONYMOUS_SESSION}  ${LOCAL_HTTP_URL}
 
-Create User Local Session
-    [Arguments]     ${username}  ${password}
-    ${auth}=        Create List  ${username}  ${password}
-    Create Session  ${USER_SESSION}  ${LOCAL_HTTP_URL}  auth=${auth}
-    GET On Session  ${USER_SESSION}  ${BASIC_AUTH_URL}
 
