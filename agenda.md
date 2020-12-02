@@ -31,7 +31,7 @@
 
 ### How to handle shared session and authentication
 - httpbin Basic Auth
-- branch 1-session
+- branch 1-shared-session
   - advantages of common headers for sessions
 - more complex example:
   - oauth2 authentication
@@ -40,6 +40,7 @@
 - global session atest setup
 
 ### How to validate the response
+- branch 2-response
 - response object
   - python way challenge
   - https://2.python-requests.org/en/master/api/?highlight=response#requests.Response
