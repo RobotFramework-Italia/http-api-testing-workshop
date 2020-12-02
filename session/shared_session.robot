@@ -1,6 +1,5 @@
 *** Settings ***
 Library  RequestsLibrary
-Resource  config.robot
 
 
 *** Variables ***
@@ -18,9 +17,17 @@ Test Wrong Credentials
 Test Right Credentials
     Create User Local Session  luca  right
 
+Test Mixed Sessions
+    Create User Local Session  luca  right
+    POST On Session  ${USER_SESSION}  anything  data=authenticated
+
+    Create Anonymous Local Session
+    GET On Session  ${ANONYMOUS_SESSION}  /anything
+
 Test Reusing A Session
     [Setup]  Create User Local Session  luca  right
     GET On Session  ${USER_SESSION}  anything
+
 
 *** Keywords ***
 Create Anonymous Local Session
