@@ -9,5 +9,5 @@ Suite Setup  Connect To Google
 *** Test Cases ***
 Test GET from Google
     [Tags]    example
-    ${resp}=  GET On Session  ${GOOGLE_ALIAS}  /
+    ${resp}=  GET On Session  alias=${GOOGLE_ALIAS}  url=/
     Should Contain  ${resp.text}  Google
