@@ -35,8 +35,7 @@
   - advantages of common headers for sessions
 - more complex example:
   - oauth2 authentication
-  - differnt roles / scope
-  - setup user generator
+  - different roles / scope
 - global session atest setup
 
 ### How to validate the response
@@ -50,9 +49,13 @@
 - implicit status assert
   - specific implicit status assert
   - nested keywords that handle negative tests
+- jsonpath https://github.com/peterservice-rnd/robotframework-jsonvalidator
 
 ### What to address with api testing in your test suite
- - testing pyramid
+ - testing pyramid https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png
+   - integration and component tests as far as a whole system is up are still somehow e2e
+ - setup user generator
+ - data preparation setup examples
 
 ### How to use RF for basic stress tests
 - RF for loops
@@ -64,6 +67,7 @@
 - realworld examples: 
   - user delete
   - data sync
+  - example unsubscribe 
 - data driver + pabot
   - test level split
   - different configurations
