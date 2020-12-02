@@ -12,8 +12,8 @@ You will learn:
 We will use the new 0.8 pre-release version and we will talk about the development roadmap.
 
 ## What you need
+- I will use PyCharm as IDE (but of course you can use your own) 
 - git
-- PyCharm IDE
 - Python
 
 ## How to setup a basic API testing/rpa project using the RequestsLibrary
