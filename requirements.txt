@@ -1,2 +1,4 @@
 robotframework
-robotframework-requests==0.8b3
+robotframework-requests==0.8b4
+robotframework-pabot
+robotframework-datadriver
