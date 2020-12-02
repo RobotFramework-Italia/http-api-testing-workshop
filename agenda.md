@@ -29,6 +29,7 @@
 ### How to handle shared session and authentication
 - httpbin Basic Auth
 - branch 1-shared-session
+  - advantages of common headers for sessions
 - more complex example:
   - oauth2 authentication
   - differnt roles / scope
@@ -41,7 +42,10 @@
   - https://2.python-requests.org/en/master/api/?highlight=response#requests.Response
 - json response
   - challenge assert https://jsonplaceholder.typicode.com/posts/1 contains optio
+- status assertion
 - implicit status assert
+  - specific implicit status assert
+  - nested keywords that handle negative tests
 
 ### What to address with api testing in your test suite
  - testing pyramid
