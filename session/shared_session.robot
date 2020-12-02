@@ -35,10 +35,8 @@ Test Reusing A Session
 Create Anonymous Local Session
     Create Session  ${ANONYMOUS_SESSION}  ${LOCAL_HTTP_URL}
 
-
 Create User Local Session
     [Arguments]     ${username}  ${password}
-
     ${auth}=        Create List  ${username}  ${password}
     Create Session  ${USER_SESSION}  ${LOCAL_HTTP_URL}  auth=${auth}
     GET On Session  ${USER_SESSION}  ${BASIC_AUTH_URL}
