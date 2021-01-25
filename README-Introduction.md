@@ -3,7 +3,7 @@
 This workshop is an introduction to the world of HTTP and REST API testing for direct test or as prerequisites for your end to end test automation suite.
 
 You will learn:
-- how HTTP works as application layer protocol
+- how HTTP works as an application layer protocol
 - what is a REST API and why they are now so common
 - how to setup a basic API testing/rpa project using the RequestsLibrary
 - how to perform different HTTP requests
