@@ -10,9 +10,10 @@ You will learn:
 - how to validate the response
 - how to handle shared session and authentication
 - what to address with api testing in your test suite
+
 We will use the new 0.9 pre-release version and we will talk about the RequestsLibrary development roadmap.
 
-Most of the workshop is hands on and highly interactive: we will use mob programming techniques.
+Most of the workshop **is hands on and highly interactive**: we will use mob programming techniques.
 
 ## What you need
 - I will use PyCharm as IDE (but of course you can use your own) 
