@@ -2,10 +2,7 @@
 
 ## Intro
 
-- What guided the development.
-- What is the new keyword structure with session an session-less.
-- How the implicit assert mechanism on status works.
-- Best practices with nested keywords.
+Who am I, since 2020 I maintain RequestsLibrary 
 
 ## What guided the development
 
@@ -26,7 +23,7 @@
   but with a little more attention that could have been useful for all the community  
 - **8+ Pull Requests** finally someone noticed ... Anssi Syrjäsalo (creator of RESTInstance lib)
 - Important: if you have libraries but you don't care / have time to maintain move under: MarketSquare
-- **Hard to debug and hidden fails problems**
+- **Hard to debug and hidden fails problems** ([see hard to debug log](/failonstatus/hard_to_debug_log_example.html))
 
 ### Robocon 2020 
 
@@ -43,16 +40,28 @@ A radical change was needed...
 ### RobotFramework Italian's Meetup
 
 I took the opportunity of Italian's Meetup to further discuss 
-and organize coding events to contribute to the library. 
+and organize coding events to contribute to the library.
 
-
-## New Keyword Structure
+## New Keyword Structure and 0.8 version
 
 [Kew Keyword Structure Issue](https://github.com/MarketSquare/robotframework-requests/issues/258)
 
+### Implicit Assert On Status
 
+And finally the original fail on error idea used in CHILI has been integrated in the new `* On Session` keywords.  
+The implementation is easy and relies on the original requests [raise_for_status()](https://2.python-requests.org/en/master/_modules/requests/models/#Response.raise_for_status) method.
 
+### Best Practices
 
+Problems might arise when you embed requests in more complicated keywords ([see test_response example](/response/test_response.robot))
+that might fail on purpose or where you need to test the response on failure. 
 
-  
+### Common pitfalls 
 
+- Urls with parameters (= symbol in url)
+- Wrong named argument because of **kwargs
+
+## Session-less requests in 0.9 version
+
+They're quite self-explanatory :)
+[pre-release 0.9 version](https://github.com/MarketSquare/robotframework-requests/blob/master/README.md)
