@@ -24,14 +24,14 @@
 - **CHILI fork 4-3-2019**
 - Then some work ... that was useful for CHILI
   but with a little more attention that could have been useful for all the community  
-- 8+ Pull Requests finally someone noticed ... Anssi Syrjäsalo (creator of RESTInstance lib)
+- **8+ Pull Requests** finally someone noticed ... Anssi Syrjäsalo (creator of RESTInstance lib)
 - Important: if you have libraries but you don't care / have time to maintain move under: MarketSquare
-- Fail on status
+- **Hard to debug and hidden fails problems**
 
 ### Robocon 2020 
 
-- Talking with Pekka and others I collected some ideas like one shot requests 
-  without previously having a session
+- Talking with Pekka and others I collected some ideas (like fire and forget requests 
+  without previously having a session)
 - But there were some problems in the current keyword parameters signatures:
   - session alias could not be removed since was mandatory and the first parameter
   - not all original requests parameters were mapped 
@@ -40,14 +40,19 @@
 
 A radical change was needed... 
 
-### RobotFramework Italian Meetup
+### RobotFramework Italian's Meetup
 
-So I took the opportunity of 
+I took the opportunity of Italian's Meetup to further discuss 
+and organize coding events to contribute to the library. 
 
 
-- First PR 5-3-2019
-- Fail on   
-- Merge 
+## New Keyword Structure
+
+[Kew Keyword Structure Issue](https://github.com/MarketSquare/robotframework-requests/issues/258)
+
+
+
+
 
   
 
