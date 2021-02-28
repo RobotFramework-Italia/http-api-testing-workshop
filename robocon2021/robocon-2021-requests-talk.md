@@ -2,7 +2,8 @@
 
 ## Intro
 
-Who am I, since 2020 I maintain RequestsLibrary 
+Who am I, since 2020 I maintain RequestsLibrary.  
+I won't talk only about 0.9 but more features and changes introduced in the last year. 
 
 ## What guided the development
 
@@ -23,7 +24,10 @@ Who am I, since 2020 I maintain RequestsLibrary
   but with a little more attention that could have been useful for all the community  
 - **8+ Pull Requests** finally someone noticed ... Anssi Syrjäsalo (creator of RESTInstance lib)
 - Important: if you have libraries but you don't care / have time to maintain move under: MarketSquare
-- **Hard to debug and hidden fails problems** ([see hard to debug log](/failonstatus/hard_to_debug_log_example.html))
+
+####Problems we faced:  
+- Since we had to deal with very unstable test environment [retry method and status lists](https://robotframework-requests.netlify.app/doc/requestslibrary#Create%20Session)
+- Hard to debug and hidden fails problems ([see hard to debug log](../failonstatus/hard_to_debug_log_example.html))
 
 ### Robocon 2020 
 
@@ -53,7 +57,7 @@ The implementation is easy and relies on the original requests [raise_for_status
 
 ### Best Practices
 
-Problems might arise when you embed requests in more complicated keywords ([see test_response example](/response/test_response.robot))
+Problems might arise when you embed requests in more complicated keywords ([see test_response example](../response/test_response.robot))
 that might fail on purpose or where you need to test the response on failure. 
 
 ### Common pitfalls 
