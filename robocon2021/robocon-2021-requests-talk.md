@@ -39,7 +39,7 @@ I won't talk only about 0.9 but more features and changes introduced in the last
   - parameters order were different between keywords
   - everything was in one file...
 
-A radical change was needed... 
+A radical change was needed... so I prepared a big refactor with more CI and tests 
 
 ### RobotFramework Italian's Meetup
 
