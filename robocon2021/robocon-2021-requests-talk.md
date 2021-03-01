@@ -50,7 +50,7 @@ and organize coding events to contribute to the library.
 
 - Approach more clean and transparent to the original Requests library
   - removing custom parsing or behavior
-  - using \*\*kwargs to allow all parameters (also in the future) supported bt Requests
+  - using [\*\*kwargs to allow all parameters](https://robotframework-requests.netlify.app/doc/requestslibrary#GET) (also in the future) supported by Requests
 - [Kew Keyword Structure Issue](https://github.com/MarketSquare/robotframework-requests/issues/258)
 
 ### Implicit Assert On Status
