@@ -13,7 +13,6 @@ I won't talk only about 0.9 but more features and changes introduced in the last
   the session handling for our backend test suite
 - **Session hacking RoboCon 17-01-2019**
 - We were struggling with some odd behaviors:
-    - (of our "custom" oauth2 implementation)
     - but also not complete logging
     - and some very tricky bugs in headers handling
   
