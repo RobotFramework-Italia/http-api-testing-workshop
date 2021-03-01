@@ -10,7 +10,7 @@ KO: Urls With Parameters (= symbol in url)
 OK: Named Argument Url
         GET On Session  httpbin  url=/anything?key=value
 
-OK: Dedicated Params
+OK: Dedicated Params Argument
         GET On Session  httpbin  /anything  params=key=value
 
 
