@@ -41,11 +41,6 @@ I won't talk only about 0.9 but more features and changes introduced in the last
 
 A radical change was needed... so I prepared a big refactor with more CI and tests 
 
-### RobotFramework Italian's Meetup
-
-I took the opportunity of Italian's Meetup to further discuss 
-and organize coding events to contribute to the library.
-
 ## New Keyword Structure and 0.8 version
 
 - Approach more clean and transparent to the original Requests library
