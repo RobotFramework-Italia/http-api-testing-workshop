@@ -25,7 +25,7 @@ I won't talk only about 0.9 but more features and changes introduced in the last
 - **8+ Pull Requests** finally someone noticed ... Anssi Syrjäsalo (creator of RESTInstance lib)
 - Important: if you have libraries but you don't care / have time to maintain move under: MarketSquare
 
-####Problems we faced:  
+#### Problems we faced:  
 - Since we had to deal with very unstable test environment [retry method and status lists](https://robotframework-requests.netlify.app/doc/requestslibrary#Create%20Session)
 - Hard to debug and hidden fails problems ([see hard to debug log](../failonstatus/hard_to_debug_log_example.html))
 
