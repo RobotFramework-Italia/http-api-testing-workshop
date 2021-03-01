@@ -48,10 +48,10 @@ and organize coding events to contribute to the library.
 
 ## New Keyword Structure and 0.8 version
 
-- [Kew Keyword Structure Issue](https://github.com/MarketSquare/robotframework-requests/issues/258)
 - Approach more clean and transparent to the original Requests library
   - removing custom parsing or behavior
   - using [\*\*kwargs to allow all parameters](https://robotframework-requests.netlify.app/doc/requestslibrary#GET) (also in the future) supported by Requests
+- [Kew Keyword Structure Issue](https://github.com/MarketSquare/robotframework-requests/issues/258)
 
 ### Implicit Assert On Status
 
