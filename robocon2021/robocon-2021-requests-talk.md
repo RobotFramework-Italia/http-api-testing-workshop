@@ -63,7 +63,7 @@ that might fail on purpose or where you need to test the response on failure.
 ### Common pitfalls 
 
 - Urls with parameters (= symbol in url)
-- Wrong named argument because of **kwargs
+- String as arguments or missing spaces
 
 ## Session-less requests in 0.9 version
 
