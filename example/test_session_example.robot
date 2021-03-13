@@ -38,3 +38,13 @@ Test PATCH json body
     Connect To Json Placeholder
     ${json_data}=  Create Dictionary  title=updated
     ${resp}=  PATCH On Session  ${JSON_ALIAS}  posts/2  json=${json_data}
+
+
+Test DELETE resource
+    Connect To Json Placeholder
+    ${resp}=  DELETE On Session  ${JSON_ALIAS}  posts/3
+
+
+Test filtering resources
+    Connect To Json Placeholder
+    ${resp}=  GET On Session  ${JSON_ALIAS}  posts  params=userId=1
