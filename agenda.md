@@ -22,9 +22,7 @@
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
 - see README.md
 - [PERSONAL LAB] setup the environment and run selfcheck
-- example
-  - configuration file
-  - external and reusable resources
+- basic example
   - testcase
   - resp.text
   - logs
@@ -32,10 +30,20 @@
 - test websites
   - https://httpbin.org/
   - https://jsonplaceholder.typicode.com/
-- more on example
+
+### How to perform different HTTP requests
+- session example
+  - configuration file
+  - external and reusable resources
+  - [PERSONAL LAB] customize adding a new website configuration and keyword
+- more on session example
   - parameters
   - json body
+  - POST requests
 - [PERSONAL LAB] customize your own parameter and post a json
+- other http methods on session example
+  - PUT requests
+  - PATCH requests
 
 ### How to handle shared session and authentication
 - httpbin Basic Auth
