@@ -4,7 +4,7 @@
 - Attendees presentation
   - where are you from?
   - how do you use RobotFramework?
-  - Python knowledge
+  - RF and Python knowledge
 
 ### RequestsLibrary
 - https://github.com/MarketSquare/robotframework-requests
@@ -44,6 +44,8 @@
 - other http methods on session example
   - PUT requests
   - PATCH requests
+  - DELETE requests
+  - Filtering resources
 
 ### How to handle shared session and authentication
 - httpbin Basic Auth
@@ -88,7 +90,7 @@
   - test level split
   - different configurations
 
-### We will use the new 0.8 pre-release version and we will talk about the development roadmap
+### We will use the new 0.8 version and we will talk about the development roadmap
 - new keyword structure
 - project and next milestones
 - how to contribute
