@@ -8,26 +8,34 @@
 
 ### RequestsLibrary
 - https://github.com/MarketSquare/robotframework-requests
-  - 0.8
+  - 0.9
   - project structure
   - documentation 
   - examples
 - https://requests.readthedocs.io/en/master/
-  - full documentation
+  - original requests library documentation
+
+### How HTTP works as an application layer protocol
+
+### What is a REST API and why they are now so common
 
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
 - see README.md
-- selfcheck
-  - httpbin
+- [PERSONAL LAB] setup the environment and run selfcheck
 - example
   - configuration file
   - external and reusable resources
   - testcase
   - resp.text
   - logs
+- [PERSONAL LAB] customize your own example with a different website
+- test websites
+  - https://httpbin.org/
+  - https://jsonplaceholder.typicode.com/
 - more on example
   - parameters
   - json body
+- [PERSONAL LAB] customize your own parameter and post a json
 
 ### How to handle shared session and authentication
 - httpbin Basic Auth
