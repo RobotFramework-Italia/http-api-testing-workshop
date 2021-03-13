@@ -25,9 +25,9 @@
   GET / HTTP/1.1
   Host: google.com
   ```
-- **[hands on]** try on your own
-- **[challenge]** how to add headers?  
-  what can you notice about the protocol structure?  
+  - **🛠 ️[hands on]** try on your own
+  - **☝️ [challenge]** how to add headers 
+  - **☝️ [challenge]** what do you notice about the protocol structure?  
 - request
 - response
   - status-line (code, reason)
@@ -45,27 +45,30 @@
 
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
 - see README.md
-- **[hands on]** setup the environment and run selfcheck
+- **🛠️ [hands on]** setup the environment and run selfcheck
 - basic example
   - testcase
   - resp.text
   - logs
-- **[hands on]** customize your own example with a different website
+  - **🛠️ [hands on]** customize your own example with a different website
 - test websites
   - https://httpbin.org/
   - https://jsonplaceholder.typicode.com/
+  - **🛠️ [hands on]** test on the local httpbin server
 
 ### How to perform different HTTP requests
 - session example
   - configuration file
   - external and reusable resources
-  - **[hands on]** customize adding a new website configuration and keyword
+  - **🛠️ [hands on]** customize adding a new website configuration and keyword
 - more on session example
   - parameters
   - json body
   - POST requests
-- **[hands on]** customize your own parameter and post a json
-- other http methods on session example
+  - **🛠️ [hands on]** use parameters with a new website
+    - common parameters pitfalls 
+  - **🛠️ [mob]** post a json body
+- json session example
   - PUT requests
   - PATCH requests
   - DELETE requests
