@@ -31,15 +31,15 @@ or
 
 Or gui:
 
-![](./readme-imgs/Selection_201.jpg)
+![](./img/Selection_201.jpg)
 
-![](./readme-imgs/Menu_200.jpg)
+![](./img/Menu_200.jpg)
 
-![](./readme-imgs/Clone%20Repository_202.jpg)
+![](./img/Clone%20Repository_202.jpg)
 
 #### Setup a new Python virtual environment
 
-![](./readme-imgs/Selection_203.jpg)
+![](./img/Selection_203.jpg)
 
 #### Install the needed dependencies
 

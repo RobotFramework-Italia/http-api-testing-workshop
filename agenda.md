@@ -16,17 +16,41 @@
   - original requests library documentation
 
 ### How HTTP works as an application layer protocol
+- OSI layer 
+![](./img/osi-layer.png)
+- layer 7: Application a text protocol over a TCP connection
+- telnet example: 
+  ```
+  telnet www.google.com 80
+  GET / HTTP/1.1
+  Host: google.com
+  ```
+- **[hands on]** try on your own
+- **[challenge]** how to add headers?  
+  what can you notice about the protocol structure?  
+- request
+- response
+  - status-line (code, reason)
+      - Informational 1XX
+      - Successful 2XX
+      - Redirection 3XX
+      - Client Error 4XX
+      - Server Error 5XX
+  - headers
+  - CRLF  
+  - body
+- curl
 
 ### What is a REST API and why they are now so common
 
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
 - see README.md
-- [PERSONAL LAB] setup the environment and run selfcheck
+- **[hands on]** setup the environment and run selfcheck
 - basic example
   - testcase
   - resp.text
   - logs
-- [PERSONAL LAB] customize your own example with a different website
+- **[hands on]** customize your own example with a different website
 - test websites
   - https://httpbin.org/
   - https://jsonplaceholder.typicode.com/
@@ -35,12 +59,12 @@
 - session example
   - configuration file
   - external and reusable resources
-  - [PERSONAL LAB] customize adding a new website configuration and keyword
+  - **[hands on]** customize adding a new website configuration and keyword
 - more on session example
   - parameters
   - json body
   - POST requests
-- [PERSONAL LAB] customize your own parameter and post a json
+- **[hands on]** customize your own parameter and post a json
 - other http methods on session example
   - PUT requests
   - PATCH requests
@@ -70,7 +94,8 @@
 - jsonpath https://github.com/peterservice-rnd/robotframework-jsonvalidator
 
 ### What to address with api testing in your test suite
- - testing pyramid https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png
+ - testing pyramid  
+   ![](./img/test-pyramid.png)
    - integration and component tests as far as a whole system is up are still somehow e2e
  - setup user generator
  - data preparation setup examples
