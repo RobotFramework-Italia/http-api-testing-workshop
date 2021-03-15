@@ -43,6 +43,38 @@
 
 ### What is a REST API and why they are now so common
 
+[Good API best practices reference](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+
+- Why?
+  - open standard
+  - simple  
+  - platform independence
+  - service evolution
+  - scalable
+
+#### Introduction  
+An architectural approach to designing web services. 
+REST is an architectural style for building distributed systems based on hypermedia.
+REST is independent of any underlying protocol and is not necessarily tied to HTTP.
+However, most common REST implementations use HTTP as the application protocol.
+
+Representational State Transfer (REST) main concepts:
+- Resources
+- A resource haas an identified
+- Interaction with a resource representation
+- Uniform interface that uses HTTP verbs
+- Stateless (transient, atomic) to enable scalability
+- Driven by hypermedia links
+
+Topics to cover:
+- Organize the API around resources
+- Define operations in terms of HTTP methods
+- Media types
+- Filter and paginate
+- HATEOAS, or Hypertext as the Engine of Application State
+- Versioning
+- OpenAPI / Swagger
+
 ### How to setup a basic API testing/rpa project using the RequestsLibrary
 - see README.md
 - **🛠️ [hands on]** setup the environment and run selfcheck
