@@ -1,3 +1,4 @@
+# for n in {1..10}; do robot stress/ugly_stress.robot; done
 *** Settings ***
 Library  RequestsLibrary
 
