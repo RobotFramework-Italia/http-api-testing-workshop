@@ -1,4 +1,4 @@
-robotframework==3.2
+robotframework
 robotframework-requests==0.9a3
 robotframework-pabot
-robotframework-datadriver
+robotframework-datadriver==1.1a1
